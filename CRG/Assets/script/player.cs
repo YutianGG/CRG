@@ -22,6 +22,8 @@ public class player : MonoBehaviour
     private AudioSource aud;
     private Animator ani;
 
+    Vector2 movent;
+
     private void Awake()
     {
         rig = GetComponent<Rigidbody2D>();
@@ -30,12 +32,15 @@ public class player : MonoBehaviour
     }
     private void Update()
     {
-        
+        movent.x = Input.GetAxisRaw("Horizontal");
+        if (movent.x != 0)
+        {
+            transform.localScale = new Vector3(-movent.x, 1, 1);
+        }
     }
     private void Move()
     {
-        float h = Input.GetAxis("Horizonatal");
-        rig.velocity = new Vector2(h * speed, rig.velocity.y);
+      
     }
     private void Jump()
     {
