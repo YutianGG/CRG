@@ -6,8 +6,8 @@ public class player : MonoBehaviour
 {
     [Header("移動速度"), Range(0, 100)]
     public float speed = 1;
-    [Header("跳躍高度"), Range(0, 10)]
-    public float jump = 2;
+    [Header("跳躍高度"), Range(0, 100000)]
+    public float jump = 50000;
     [Header("生命數量"), Range(1, 3)]
     public int live = 3;
     [Header("是否站在地板"), Tooltip("儲存玩家是否在地面")]
@@ -22,7 +22,7 @@ public class player : MonoBehaviour
     private AudioSource aud;
     private Animator ani;
 
-    Vector2 movent;
+    
 
     private void Awake()
     {
@@ -32,21 +32,23 @@ public class player : MonoBehaviour
     }
     private void Update()
     {
-        movent.x = Input.GetAxisRaw("Horizontal");
-        if (movent.x != 0)
-        {
-            transform.localScale = new Vector3(-movent.x, 1, 1);
-        }
+        Move();
     }
     private void Move()
     {
-      
+        float h = Input.GetAxis("Horizontal"); //水平
+        rig.velocity = new Vector2(h * speed, rig.velocity.y); 
     }
-    private void Jump()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (isGround && Input.GetKeyDown(KeyCode.Space))
-        { 
-            
+        if (collision.gameObject.tag == "floor")
+        {
+            Destroy(collision.gameObject,1f);
+        }
+        if (Input.GetButtonDown("Jump"))
+        {
+            rig.velocity = new Vector2(rig.velocity.x, jump * Time.deltaTime);  
         }
     }
+
 }
