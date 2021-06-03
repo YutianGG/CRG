@@ -1,0 +1,464 @@
+fileFormatVersion: 2
+guid: ef8b6bb40442b4f43884e11a03f12caa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2938168173534622172
+    second: "HellYA \u80CC\u666F2_0"
+  - first:
+      213: -63122156391016872
+    second: "HellYA \u80CC\u666F2_1"
+  - first:
+      213: 8260215120714545230
+    second: "HellYA \u80CC\u666F2_2"
+  - first:
+      213: -6113863492000227605
+    second: "HellYA \u80CC\u666F2_3"
+  - first:
+      213: -9117410318675754750
+    second: "HellYA \u80CC\u666F2_4"
+  - first:
+      213: 530249341102814678
+    second: "HellYA \u80CC\u666F2_5"
+  - first:
+      213: 9016939158171651021
+    second: "HellYA \u80CC\u666F2_6"
+  - first:
+      213: -3292320984888460894
+    second: "HellYA \u80CC\u666F2_7"
+  - first:
+      213: -1399922824083983141
+    second: "HellYA \u80CC\u666F2_8"
+  - first:
+      213: 628518337976778853
+    second: "HellYA \u80CC\u666F2_9"
+  - first:
+      213: -6726964404900359056
+    second: "HellYA \u80CC\u666F2_10"
+  - first:
+      213: 8470748546310524386
+    second: "HellYA \u80CC\u666F2_11"
+  - first:
+      213: 5779638292135259489
+    second: "HellYA \u80CC\u666F2_12"
+  - first:
+      213: -4550607725205484701
+    second: "HellYA \u80CC\u666F2_13"
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 80
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "HellYA \u80CC\u666F2_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 267
+        width: 317
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e4c1efc978937d0800000000000000
+      internalID: -2938168173534622172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "HellYA \u80CC\u666F2_1"
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 267
+        width: 308
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8565bd2bbbebf1ff0800000000000000
+      internalID: -63122156391016872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "HellYA \u80CC\u666F2_2"
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 267
+        width: 308
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48308643ed22a270800000000000000
+      internalID: 8260215120714545230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "HellYA \u80CC\u666F2_3"
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 201
+        width: 241
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beed812fb81372ba0800000000000000
+      internalID: -6113863492000227605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "HellYA \u80CC\u666F2_4"
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 267
+        width: 303
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201c9db0f93787180800000000000000
+      internalID: -9117410318675754750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "HellYA \u80CC\u666F2_5"
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 115
+        width: 303
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d571d267f2db5700800000000000000
+      internalID: 530249341102814678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "HellYA \u80CC\u666F2_6"
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 115
+        width: 308
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb812cf36a922d70800000000000000
+      internalID: 9016939158171651021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "HellYA \u80CC\u666F2_7"
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 115
+        width: 308
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9b829f1835f42d0800000000000000
+      internalID: -3292320984888460894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "HellYA \u80CC\u666F2_8"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 115
+        width: 317
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4338dcb99729ce0800000000000000
+      internalID: -1399922824083983141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "HellYA \u80CC\u666F2_9"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 317
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560cced2912f8b800800000000000000
+      internalID: 628518337976778853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "HellYA \u80CC\u666F2_10"
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 0
+        width: 308
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0749735c38505a2a0800000000000000
+      internalID: -6726964404900359056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "HellYA \u80CC\u666F2_11"
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 49
+        width: 241
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2edce744ce42e8570800000000000000
+      internalID: 8470748546310524386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "HellYA \u80CC\u666F2_12"
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 0
+        width: 308
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16da7f4a766653050800000000000000
+      internalID: 5779638292135259489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "HellYA \u80CC\u666F2_13"
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 0
+        width: 303
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b8af2526ef8d0c0800000000000000
+      internalID: -4550607725205484701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
